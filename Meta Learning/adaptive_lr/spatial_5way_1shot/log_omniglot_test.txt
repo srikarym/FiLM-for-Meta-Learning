@@ -1,0 +1,31 @@
+2018-10-11 17:14:26.207925: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-11 17:14:26.208044: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-11 17:14:26.208061: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-11 17:14:26.208071: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-11 17:14:26.208080: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-11 17:14:26.391764: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX 1080
+major: 6 minor: 1 memoryClockRate (GHz) 1.7335
+pciBusID 0000:05:00.0
+Total memory: 7.93GiB
+Free memory: 7.81GiB
+2018-10-11 17:14:26.391861: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-10-11 17:14:26.391876: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-10-11 17:14:26.391893: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:05:00.0)
+WARN: Cannot define MaxPoolGrad, likely already defined for this version of tensorflow: "Registering two gradient with name 'MaxPoolGrad' !(Previous registration was in _find_and_load_unlocked <frozen importlib._bootstrap>:955)"
+Started!!!
+Generating filenames
+Generating image processing ops
+Batching images
+Manipulating image data to be right shape
+Restoring model weights from logs/omniglot//cls_5.mbs_32.ubs_1.numstep1.updatelr0.4batchnorm/model39999
+Mean validation accuracy/loss, stddev, and confidence intervals
+(array([ 0.19999886,  0.91366559,  0.91433215,  0.91499877,  0.91599882,
+        0.91633219,  0.91699892,  0.91699892,  0.91699892,  0.91699892,
+        0.91733235], dtype=float32), array([  1.14738941e-06,   1.45418584e-01,   1.45353973e-01,
+         1.44827142e-01,   1.44720420e-01,   1.44683003e-01,
+         1.44606680e-01,   1.44606680e-01,   1.44606680e-01,
+         1.44606680e-01,   1.44567013e-01], dtype=float32), array([  9.18102714e-08,   1.16359107e-02,   1.16307400e-02,
+         1.15885846e-02,   1.15800453e-02,   1.15770511e-02,
+         1.15709435e-02,   1.15709435e-02,   1.15709435e-02,
+         1.15709435e-02,   1.15677705e-02], dtype=float32))
