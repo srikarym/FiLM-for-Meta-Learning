@@ -1,0 +1,17 @@
+Generating filenames
+Generating image processing ops
+Batching images
+Manipulating image data to be right shape
+Generating filenames
+Generating image processing ops
+Batching images
+Manipulating image data to be right shape
+Restoring model weights from logs/omniglot5way//cls_5.mbs_32.ubs_1.numstep1.updatelr0.4batchnorm/model39999
+Mean validation accuracy/loss, stddev, and confidence intervals
+(array([ 0.20099942,  0.98399961,  0.62733346,  0.40999869,  0.38833192,
+        0.38866523,  0.38866523,  0.38899857,  0.38933191,  0.38966522,
+        0.38966522], dtype=float32), array([ 0.11971773,  0.05666297,  0.28876671,  0.33788493,  0.3365472 ,
+        0.335666  ,  0.335666  ,  0.33617327,  0.33667943,  0.33718398,
+        0.33718398], dtype=float32), array([ 0.00957941,  0.00453398,  0.02310615,  0.02703642,  0.02692938,
+        0.02685888,  0.02685888,  0.02689946,  0.02693996,  0.02698034,
+        0.02698034], dtype=float32))
