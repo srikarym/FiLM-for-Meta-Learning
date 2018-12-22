@@ -1,0 +1,851 @@
+Logging to /tmp/openai-2018-12-05-02-11-12-427423
+SonicTheHedgehog-Genesis SpringYardZone.Act3
+SonicTheHedgehog-Genesis SpringYardZone.Act2
+SonicTheHedgehog-Genesis GreenHillZone.Act3
+SonicTheHedgehog-Genesis GreenHillZone.Act1
+SonicTheHedgehog-Genesis StarLightZone.Act2
+SonicTheHedgehog-Genesis StarLightZone.Act1
+SonicTheHedgehog-Genesis MarbleZone.Act2
+SonicTheHedgehog-Genesis MarbleZone.Act1
+SonicTheHedgehog-Genesis MarbleZone.Act3
+SonicTheHedgehog-Genesis ScrapBrainZone.Act2
+SonicTheHedgehog-Genesis LabyrinthZone.Act2
+SonicTheHedgehog-Genesis LabyrinthZone.Act1
+SonicTheHedgehog-Genesis LabyrinthZone.Act3
+SonicTheHedgehog2-Genesis EmeraldHillZone.Act1
+SonicTheHedgehog2-Genesis EmeraldHillZone.Act2
+SonicTheHedgehog2-Genesis ChemicalPlantZone.Act1
+SonicTheHedgehog2-Genesis ChemicalPlantZone.Act2
+SonicTheHedgehog2-Genesis MetropolisZone.Act1
+SonicTheHedgehog2-Genesis MetropolisZone.Act2
+SonicTheHedgehog2-Genesis OilOceanZone.Act1
+SonicTheHedgehog2-Genesis OilOceanZone.Act2
+SonicTheHedgehog2-Genesis MysticCaveZone.Act2
+SonicTheHedgehog2-Genesis MysticCaveZone.Act1
+SonicTheHedgehog2-Genesis HillTopZone.Act1
+SonicTheHedgehog2-Genesis CasinoNightZone.Act1
+SonicTheHedgehog2-Genesis WingFortressZone
+SonicTheHedgehog2-Genesis AquaticRuinZone.Act2
+SonicTheHedgehog2-Genesis AquaticRuinZone.Act1
+SonicAndKnuckles3-Genesis LavaReefZone.Act2
+SonicAndKnuckles3-Genesis CarnivalNightZone.Act2
+SonicAndKnuckles3-Genesis CarnivalNightZone.Act1
+SonicAndKnuckles3-Genesis MarbleGardenZone.Act1
+SonicAndKnuckles3-Genesis MarbleGardenZone.Act2
+SonicAndKnuckles3-Genesis MushroomHillZone.Act2
+SonicAndKnuckles3-Genesis MushroomHillZone.Act1
+SonicAndKnuckles3-Genesis DeathEggZone.Act1
+SonicAndKnuckles3-Genesis DeathEggZone.Act2
+SonicAndKnuckles3-Genesis FlyingBatteryZone.Act1
+SonicAndKnuckles3-Genesis SandopolisZone.Act1
+SonicAndKnuckles3-Genesis SandopolisZone.Act2
+SonicAndKnuckles3-Genesis HiddenPalaceZone
+SonicAndKnuckles3-Genesis HydrocityZone.Act2
+SonicAndKnuckles3-Genesis IcecapZone.Act1
+SonicAndKnuckles3-Genesis IcecapZone.Act2
+SonicAndKnuckles3-Genesis AngelIslandZone.Act1
+SonicAndKnuckles3-Genesis LaunchBaseZone.Act2
+SonicAndKnuckles3-Genesis LaunchBaseZone.Act1
+Logging to ../logging/model/
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+print this before using the optimizer
+-----------------------------------
+| approxkl           | 0.4482543  |
+| clipfrac           | 1.0        |
+| eplenmean          | 577        |
+| eprewmean          | 500        |
+| explained_variance | 0          |
+| fps                | 266        |
+| nupdates           | 1          |
+| policy_entropy     | 1.9454764  |
+| policy_loss        | 0.13924988 |
+| serial_timesteps   | 2048       |
+| time_elapsed       | 362        |
+| total_timesteps    | 96256      |
+| value_loss         | 0.06901804 |
+-----------------------------------
+Saving to ../logging/model/checkpoints/00001
+Logging to /tmp/openai-2018-12-05-02-17-22-424778
+SonicTheHedgehog-Genesis SpringYardZone.Act1
+Logging to ../logging/val_0/model/
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Loading ../logging/model/checkpoints/00001_tf
+--------------------------------------
+| approxkl           | 0.00016645224 |
+| clipfrac           | 0.0           |
+| eplenmean          | 1.02e+03      |
+| eprewmean          | 307           |
+| explained_variance | -0.0181       |
+| fps                | 149           |
+| nupdates           | 1             |
+| policy_entropy     | 1.9425827     |
+| policy_loss        | -0.0007387964 |
+| serial_timesteps   | 2048          |
+| time_elapsed       | 13.7          |
+| total_timesteps    | 2048          |
+| value_loss         | 0.011327908   |
+--------------------------------------
+Logging to /tmp/openai-2018-12-05-02-17-42-548480
+SonicTheHedgehog-Genesis GreenHillZone.Act2
+Logging to ../logging/val_1/model/
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Loading ../logging/model/checkpoints/00001_tf
+--------------------------------------
+| approxkl           | 0.00032825005 |
+| clipfrac           | 0.0           |
+| eplenmean          | nan           |
+| eprewmean          | nan           |
+| explained_variance | 0.0139        |
+| fps                | 142           |
+| nupdates           | 1             |
+| policy_entropy     | 1.9413917     |
+| policy_loss        | -0.0012046534 |
+| serial_timesteps   | 2048          |
+| time_elapsed       | 14.3          |
+| total_timesteps    | 2048          |
+| value_loss         | 0.008453089   |
+--------------------------------------
+Logging to /tmp/openai-2018-12-05-02-18-02-887298
+SonicTheHedgehog-Genesis StarLightZone.Act3
+Logging to ../logging/val_2/model/
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Loading ../logging/model/checkpoints/00001_tf
+---------------------------------------
+| approxkl           | 0.0001136511   |
+| clipfrac           | 0.0            |
+| eplenmean          | 1.87e+03       |
+| eprewmean          | 2.96e+03       |
+| explained_variance | -0.000177      |
+| fps                | 147            |
+| nupdates           | 1              |
+| policy_entropy     | 1.9430138      |
+| policy_loss        | -0.00066546537 |
+| serial_timesteps   | 2048           |
+| time_elapsed       | 13.9           |
+| total_timesteps    | 2048           |
+| value_loss         | 0.28634584     |
+---------------------------------------
+Logging to /tmp/openai-2018-12-05-02-18-22-769699
+SonicTheHedgehog-Genesis ScrapBrainZone.Act1
+Logging to ../logging/val_3/model/
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Loading ../logging/model/checkpoints/00001_tf
+---------------------------------------
+| approxkl           | 9.132061e-05   |
+| clipfrac           | 0.0            |
+| eplenmean          | nan            |
+| eprewmean          | nan            |
+| explained_variance | 0.015          |
+| fps                | 152            |
+| nupdates           | 1              |
+| policy_entropy     | 1.9427432      |
+| policy_loss        | -0.00045939503 |
+| serial_timesteps   | 2048           |
+| time_elapsed       | 13.4           |
+| total_timesteps    | 2048           |
+| value_loss         | 0.005210733    |
+---------------------------------------
+Logging to /tmp/openai-2018-12-05-02-18-42-123113
+SonicTheHedgehog2-Genesis MetropolisZone.Act3
+Logging to ../logging/val_4/model/
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Loading ../logging/model/checkpoints/00001_tf
+--------------------------------------
+| approxkl           | 0.0009783859  |
+| clipfrac           | 0.06689453    |
+| eplenmean          | 573           |
+| eprewmean          | 231           |
+| explained_variance | 0.00577       |
+| fps                | 149           |
+| nupdates           | 1             |
+| policy_entropy     | 1.9405408     |
+| policy_loss        | -0.0037175745 |
+| serial_timesteps   | 2048          |
+| time_elapsed       | 13.7          |
+| total_timesteps    | 2048          |
+| value_loss         | 0.01271405    |
+--------------------------------------
+Logging to /tmp/openai-2018-12-05-02-19-01-792864
+SonicTheHedgehog2-Genesis HillTopZone.Act2
+Logging to ../logging/val_5/model/
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Loading ../logging/model/checkpoints/00001_tf
+--------------------------------------
+| approxkl           | 0.0006087983  |
+| clipfrac           | 0.006591797   |
+| eplenmean          | nan           |
+| eprewmean          | nan           |
+| explained_variance | -0.000806     |
+| fps                | 149           |
+| nupdates           | 1             |
+| policy_entropy     | 1.9386299     |
+| policy_loss        | -0.0012646688 |
+| serial_timesteps   | 2048          |
+| time_elapsed       | 13.7          |
+| total_timesteps    | 2048          |
+| value_loss         | 0.0025061704  |
+--------------------------------------
+Logging to /tmp/openai-2018-12-05-02-19-21-430477
+SonicTheHedgehog2-Genesis CasinoNightZone.Act2
+Logging to ../logging/val_6/model/
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Loading ../logging/model/checkpoints/00001_tf
+--------------------------------------
+| approxkl           | 5.17534e-05   |
+| clipfrac           | 0.0           |
+| eplenmean          | nan           |
+| eprewmean          | nan           |
+| explained_variance | 0.00688       |
+| fps                | 145           |
+| nupdates           | 1             |
+| policy_entropy     | 1.9435245     |
+| policy_loss        | -0.0004059986 |
+| serial_timesteps   | 2048          |
+| time_elapsed       | 14.1          |
+| total_timesteps    | 2048          |
+| value_loss         | 0.021413177   |
+--------------------------------------
+Logging to /tmp/openai-2018-12-05-02-19-41-491862
+SonicAndKnuckles3-Genesis LavaReefZone.Act1
+Logging to ../logging/val_7/model/
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Loading ../logging/model/checkpoints/00001_tf
+--------------------------------------
+| approxkl           | 0.00019129802 |
+| clipfrac           | 0.0           |
+| eplenmean          | 321           |
+| eprewmean          | 360           |
+| explained_variance | 0.00682       |
+| fps                | 140           |
+| nupdates           | 1             |
+| policy_entropy     | 1.939181      |
+| policy_loss        | -0.000572313  |
+| serial_timesteps   | 2048          |
+| time_elapsed       | 14.6          |
+| total_timesteps    | 2048          |
+| value_loss         | 0.077912495   |
+--------------------------------------
+Logging to /tmp/openai-2018-12-05-02-20-02-040613
+SonicAndKnuckles3-Genesis FlyingBatteryZone.Act2
+Logging to ../logging/val_8/model/
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Loading ../logging/model/checkpoints/00001_tf
+---------------------------------------
+| approxkl           | 5.189459e-05   |
+| clipfrac           | 0.0            |
+| eplenmean          | nan            |
+| eprewmean          | nan            |
+| explained_variance | -0.000138      |
+| fps                | 143            |
+| nupdates           | 1              |
+| policy_entropy     | 1.9429687      |
+| policy_loss        | -0.00021657639 |
+| serial_timesteps   | 2048           |
+| time_elapsed       | 14.2           |
+| total_timesteps    | 2048           |
+| value_loss         | 0.032651637    |
+---------------------------------------
+Logging to /tmp/openai-2018-12-05-02-20-22-226107
+SonicAndKnuckles3-Genesis HydrocityZone.Act1
+Logging to ../logging/val_9/model/
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Loading ../logging/model/checkpoints/00001_tf
+---------------------------------------
+| approxkl           | 0.00021745393  |
+| clipfrac           | 0.0            |
+| eplenmean          | 503            |
+| eprewmean          | 86.7           |
+| explained_variance | 0.0168         |
+| fps                | 139            |
+| nupdates           | 1              |
+| policy_entropy     | 1.9411551      |
+| policy_loss        | -0.00076130114 |
+| serial_timesteps   | 2048           |
+| time_elapsed       | 14.7           |
+| total_timesteps    | 2048           |
+| value_loss         | 0.009628338    |
+---------------------------------------
+Logging to /tmp/openai-2018-12-05-02-20-42-739394
+SonicAndKnuckles3-Genesis AngelIslandZone.Act2
+Logging to ../logging/val_10/model/
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Network:
+model/Film/w_1:0 (1536,)
+model/Film/b_1:0 (1536,)
+model/Film/w_2:0 (3072,)
+model/Film/b_2:0 (3072,)
+model/Film/w_3:0 (2304,)
+model/Film/b_3:0 (2304,)
+model/SeparableConv2d/depthwise_weights:0 (8, 8, 4, 1)
+model/SeparableConv2d/pointwise_weights:0 (1, 1, 4, 32)
+model/SeparableConv2d/biases:0 (32,)
+model/SeparableConv2d_1/depthwise_weights:0 (4, 4, 32, 1)
+model/SeparableConv2d_1/pointwise_weights:0 (1, 1, 32, 64)
+model/SeparableConv2d_1/biases:0 (64,)
+model/SeparableConv2d_2/depthwise_weights:0 (3, 3, 64, 1)
+model/SeparableConv2d_2/pointwise_weights:0 (1, 1, 64, 48)
+model/SeparableConv2d_2/biases:0 (48,)
+model/fc1/w:0 (6912, 512)
+model/fc1/b:0 (512,)
+model/v/w:0 (512, 1)
+model/v/b:0 (1,)
+model/pi/w:0 (512, 7)
+model/pi/b:0 (7,)
+Trainable variables:
+3564120
+Loading ../logging/model/checkpoints/00001_tf
+--------------------------------------
+| approxkl           | 0.00058315793 |
+| clipfrac           | 0.020019531   |
+| eplenmean          | nan           |
+| eprewmean          | nan           |
+| explained_variance | 0.0369        |
+| fps                | 139           |
+| nupdates           | 1             |
+| policy_entropy     | 1.9394848     |
+| policy_loss        | -0.0015848656 |
+| serial_timesteps   | 2048          |
+| time_elapsed       | 14.7          |
+| total_timesteps    | 2048          |
+| value_loss         | 0.013717516   |
+--------------------------------------
