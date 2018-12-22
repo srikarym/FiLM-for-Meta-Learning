@@ -1,0 +1,60 @@
+Generating filenames
+Generating image processing ops
+Batching images
+Manipulating image data to be right shape
+Generating filenames
+Generating image processing ops
+Batching images
+Manipulating image data to be right shape
+Restoring model weights from logs/omniglot5way//cls_5.mbs_32.ubs_1.numstep1.updatelr0.4stopgradbatchnorm/model39999
+Mean validation accuracy/loss, stddev, and confidence intervals
+(array([ 0.19999886,  0.94233233,  0.94666582,  0.9486658 ,  0.9486658 ,
+        0.94966584,  0.94999921,  0.95166588,  0.95199931,  0.95199919,
+        0.95233256], dtype=float32), array([  1.14738941e-06,   1.09883957e-01,   1.06874600e-01,
+         1.05347790e-01,   1.05978720e-01,   1.05513848e-01,
+         1.04721755e-01,   1.04549184e-01,   1.04383893e-01,
+         1.04383871e-01,   1.04217045e-01], dtype=float32), array([  9.18102714e-08,   8.79254751e-03,   8.55174940e-03,
+         8.42957851e-03,   8.48006364e-03,   8.44286662e-03,
+         8.37948546e-03,   8.36567674e-03,   8.35245103e-03,
+         8.35244916e-03,   8.33910052e-03], dtype=float32))
+Generating filenames
+Generating image processing ops
+Batching images
+Manipulating image data to be right shape
+Restoring model weights from logs/omniglot5way//cls_5.mbs_32.ubs_1.numstep1.updatelr0.1batchnorm\model34000
+Generating filenames
+Generating image processing ops
+Batching images
+Manipulating image data to be right shape
+Restoring model weights from logs/omniglot5way//cls_5.mbs_32.ubs_1.numstep1.updatelr0.4batchnorm\model34000
+Generating filenames
+Generating image processing ops
+Batching images
+Manipulating image data to be right shape
+Restoring model weights from logs/omniglot5way//cls_5.mbs_32.ubs_1.numstep1.updatelr0.4batchnorm/model39999
+Mean validation accuracy/loss, stddev, and confidence intervals
+(array([ 0.19866639,  0.95666575,  0.95933259,  0.95766622,  0.95733285,
+        0.95766622,  0.95799935,  0.95899945,  0.95999938,  0.9593327 ,
+        0.96033275], dtype=float32), array([ 0.18582694,  0.10060912,  0.09905981,  0.10396072,  0.10478356,
+        0.10460003,  0.10505201,  0.10256197,  0.09865794,  0.10557543,
+        0.0991292 ], dtype=float32), array([ 0.01486925,  0.00805041,  0.00792644,  0.00831859,  0.00838443,
+        0.00836975,  0.00840591,  0.00820667,  0.00789428,  0.00844779,
+        0.00793199], dtype=float32))
+Generating filenames
+Generating image processing ops
+Batching images
+Manipulating image data to be right shape
+Restoring model weights from logs/omniglot5way//cls_5.mbs_32.ubs_1.numstep1.updatelr0.4batchnorm\model31000
+Generating filenames
+Generating image processing ops
+Batching images
+Manipulating image data to be right shape
+Restoring model weights from logs/omniglot5way/cls_5.mbs_32.ubs_1.numstep1.updatelr0.4batchnorm/model31000
+Mean validation accuracy/loss, stddev, and confidence intervals
+(array([ 0.19999979,  0.95299888,  0.95533246,  0.95199901,  0.95333242,
+        0.95199931,  0.95433247,  0.95533252,  0.95666587,  0.95799929,
+        0.95933247], dtype=float32), array([ 0.17999992,  0.09586992,  0.09868212,  0.10690801,  0.10176218,
+        0.1105863 ,  0.10574146,  0.10265555,  0.10126963,  0.09917696,
+        0.09633026], dtype=float32), array([ 0.01440299,  0.00767119,  0.00789621,  0.00855442,  0.00814267,
+        0.00884875,  0.00846108,  0.00821415,  0.00810326,  0.00793581,
+        0.00770803], dtype=float32))

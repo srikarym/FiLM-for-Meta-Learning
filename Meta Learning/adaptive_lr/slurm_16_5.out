@@ -1,0 +1,28 @@
+2018-10-11 17:07:33.460111: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-11 17:07:33.460237: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-11 17:07:33.460255: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-11 17:07:33.460267: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-11 17:07:33.460277: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-11 17:07:33.687708: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla P40
+major: 6 minor: 1 memoryClockRate (GHz) 1.531
+pciBusID 0000:85:00.0
+Total memory: 22.38GiB
+Free memory: 22.22GiB
+2018-10-11 17:07:33.687840: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-10-11 17:07:33.687889: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-10-11 17:07:33.687925: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P40, pci bus id: 0000:85:00.0)
+WARN: Cannot define MaxPoolGrad, likely already defined for this version of tensorflow: "Registering two gradient with name 'MaxPoolGrad' !(Previous registration was in _find_and_load_unlocked <frozen importlib._bootstrap>:955)"
+Generating filenames
+Generating image processing ops
+Batching images
+Manipulating image data to be right shape
+Restoring model weights from logs/omniglot5way/cls_5.mbs_32.ubs_1.numstep1.updatelr0.4batchnorm/model39999
+Mean validation accuracy/loss, stddev, and confidence intervals
+(array([ 0.19833311,  0.68033314,  0.74366605,  0.77366585,  0.77899915,
+        0.78266579,  0.78399915,  0.78666574,  0.78666574,  0.78699917,
+        0.7866658 ], dtype=float32), array([ 0.14763896,  0.16211101,  0.18500432,  0.18736763,  0.18803976,
+        0.19069947,  0.19046561,  0.18961918,  0.18961915,  0.19191423,
+        0.19067095], dtype=float32), array([ 0.01181358,  0.01297158,  0.01480343,  0.01499253,  0.01504632,
+        0.01525914,  0.01524042,  0.01517269,  0.01517269,  0.01535634,
+        0.01525685], dtype=float32))
