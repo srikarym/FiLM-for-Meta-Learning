@@ -4,4 +4,4 @@ We have extended the work done in Model Agnostic meta learning by introducing Fi
 
 Further details of Meta Learning and Reinforcement Learning Models are there in their respective folders.
 
-Thank you for Ethan Perez and Rob Fergus for the support and idea to use FiLM in these contexts.
+Thank you for Ethan Perez and Rob Fergus for the support and idea to use FiLM in this context.
